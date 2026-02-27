@@ -109,7 +109,7 @@ class Portfolio extends React.Component {
                                         
                                         return (
                                             <tr key={index}>
-                                                <td>(name)</td>
+                                                <td>{name}</td>
                                                 <td>
                                                     <input onChange={e => this.handleChange(e, index)} type="number" name="shares_owned" value={shares_owned}></input>
                                                 </td>
